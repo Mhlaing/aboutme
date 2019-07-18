@@ -1,28 +1,35 @@
 .topblackbar {
-    background-color: black;
-    height: 80px;
+    background-color: rgb(17, 17, 17);
+    height: 60px;
     width: 100%;
     box-sizing: border-box;
 }
 
 .leftsidebar {
-    background-color: black;
-    height: 650px;
+    background-color: rgb(17, 17, 17);
+    height: 815px;
     width: 35%;
     display: inline-block;
     float: left;
 }
 
 .rightbody {
-    background-color: rgb(238, 225, 225);
-    height: 650px;
-    width: 65%;
+    background-color: rgb(243, 240, 240);
+    height: 815px;
+    width: 60%;
+    display: inline-block;
+}
+
+.rightblackbar {
+    background-color: rgb(17, 17, 17);
+    height: 815px;
+    width: 5%;
     display: inline-block;
     float: right;
 }
 
 .bottomblackbar {
-    background-color: black;
+    background-color: rgb(17, 17, 17);
     height: 40px;
     width: 100%;
     display: inline-block;
@@ -32,56 +39,86 @@
     display: inline-block;
     opacity: 100%;
     height: 400px;
-    width: 300px;
-    margin-left: 80px;
+    width: 330px;
+    margin-left: 85px;
+    color
+}
+
+.connectwithme {
+    color: white;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 150px;
+    margin-left: 78px;
 }
 
 .bodyheaderdescription {
     color: rgb(46, 46, 46);
     margin-left: 50px;
-    margin-top: 20px;
-    font-size: 30px;
+    margin-top: 12px;
+    margin-right: 55px;
+    font-size: 23px;
     font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
 }
 
 .bodyheader {
     color: black;
     margin-left: 50px;
     margin-top: 35px;
-    font-size: 80px;
+    font-size: 65px;
     font-family: 'Roboto', sans-serif;
 }
+
+.interestingfactsheader {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 35px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
 
 .listofinterestingfacts {
     color: black;
     margin-left: 50px;
-    margin-top: 85px;
-    font-size: 30px;
+    margin-top: 14px;
+    font-size: 24px;
     font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+}
+
+.socialmedia {
+    margin-top: 5px;
+    margin-right: 55px;
+    float: right;
+    
 }
 
 .facebook {
     display: inline-block;
-    height: 65px;
-    width: 65px;
-    margin-left: 75px;
-    margin-top: 180px;
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+    margin-top: 10px;
 }
 
 .instagram {
     display: inline-block;
-    height: 65px;
-    width: 65px;
-    margin-left: 50px;
-    margin-top: 180px;
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+    margin-top: 10px;
 }
 
 .linkedin {
     display: inline-block;
-    height: 65px;
-    width: 65px;
-    margin-left: 50px;
-    margin-top: 180px;
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+    margin-top: 10px;
 }
 
 .eevee1 {
@@ -90,4 +127,22 @@
     width: 200px;
     margin-left: 50px;
     margin-top: 50px;
+}
+
+.profilequote {
+    color: white;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 82px;
+    margin-top: 90px;
+    line-height: 2.1;
+}
+
+.hobbiesheader {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-top: 22px;
+    font-family: 'Roboto', sans-serif;
 }
